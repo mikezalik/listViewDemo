@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(MainActivity.this, "The person you select is " + myFamily.get(i), Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "The person you selected is " + myFamily.get(i), Toast.LENGTH_LONG).show();
             }
         });
     }
