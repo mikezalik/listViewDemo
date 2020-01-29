@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -14,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
 
         ListView myListView = findViewById(R.id.myListView);
 
-        
+        ArrayList<String> myFamily = new ArrayList<String>();
+
+        myFamily.add("Brianna");
+        myFamily.add("Eric");
+        myFamily.add("Brett");
     }
 }
